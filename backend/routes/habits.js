@@ -7,7 +7,7 @@ import {
   deleteHabit,
   archiveHabit,
   reorderHabits,
-} from "../controllers/habitController.js";
+} from "../controllers/HabitController.js";
 
 import { protect } from "../middleware/auth.js";
 
