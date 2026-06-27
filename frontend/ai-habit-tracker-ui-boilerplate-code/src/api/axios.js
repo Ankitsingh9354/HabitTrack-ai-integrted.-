@@ -2,7 +2,7 @@
   import axios from "axios";
 
   const api = axios.create({
-    baseURL: "https://habittracker-ai-integrated.onrender.com",
+    baseURL: "http://localhost:8000/api",
   });
 
   api.interceptors.request.use((config) => {
