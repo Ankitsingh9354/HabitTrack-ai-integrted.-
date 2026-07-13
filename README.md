@@ -61,13 +61,7 @@ AI-Habit-Tracker
 
 ---
 
-## Installation
 
-### Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/HabitTrack-ai-integrated.git
-```
 
 ### Backend
 
@@ -134,18 +128,6 @@ CLIENT_URL=http://localhost:5173
 
 ---
 
-## Screenshots
-
-Add screenshots here.
-
-```
-Home Page
-
-Dashboard
-
-AI Insights
-
-Habit Tracker
 ```
 
 ---
