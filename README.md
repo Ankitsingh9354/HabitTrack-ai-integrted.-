@@ -94,13 +94,13 @@ Create a `.env` file inside the backend folder.
 ```env
 PORT=8000
 
-MONGO_URI=Your MongoDB URI
+MONGO_URI
 
-JWT_SECRET=Your Secret Key
+JWT_SECRET
 
 JWT_EXPIRES_IN=7d
 
-GEMINI_API_KEY=Your Gemini API Key
+GEMINI_API_KEY
 
 GEMINI_MODEL=gemini-2.5-flash
 
