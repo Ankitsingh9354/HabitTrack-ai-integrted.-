@@ -3,9 +3,16 @@ import { GoogleGenAI } from "@google/genai";
 let client = null;
 const getClient = () => {
   if (client) return client;
+
   const key = process.env.GEMINI_API_KEY;
+
+  console.log("API KEY:", key);
+  console.log("MODEL:", process.env.GEMINI_MODEL);
+
   if (!key) return null;
+
   client = new GoogleGenAI({ apiKey: key });
+
   return client;
 };
 

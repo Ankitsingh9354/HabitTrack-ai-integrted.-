@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+console.log(process.env.MONGO_URI.replace(/:(.*?)@/, ":******@"));
 export const connectDB = async () => {
   try {
     const uri = process.env.MONGO_URI;
