@@ -16,4 +16,3 @@ export const connectDB = async () => {
     process.exit(1);
   }
 };
-console.log("Mongo URI:", process.env.MONGO_URI);
